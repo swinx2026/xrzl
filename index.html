@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>仙人指路 - 灵感导航</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 视频背景 -->
+    <video autoplay muted loop id="background-video">
+        <source src="video/bg.mp4" type="video/mp4">
+    </video>
+    <div class="container">
+        <header>
+            <img src="pic/logo.png" alt="仙人指路" class="site-logo">
+            <div class="search-box">
+                <select id="searchEngineSelect" class="search-engine">
+                    <option value="baidu">百度搜索</option>
+                    <option value="360">360搜索</option>
+                </select>
+                <input type="text" id="mainSearchInput" class="search-input" placeholder="搜索...">
+                <button id="mainSearchBtn" class="search-btn">搜索</button>
+            </div>
+        </header>
+        
+        <main>
+            <!-- 设计素材分类 -->
+            <section class="category" id="design-materials">
+                <h2 class="category-title">设计素材</h2>
+                <div class="site-list">
+                    <a href="https://huaban.com" class="site-card" target="_blank">
+                <div class="site-icon bg-pink">花</div>
+                <div class="site-name">花瓣网</div>
+            </a>
+            <a href="https://www.zcool.com.cn" class="site-card" target="_blank">
+                <div class="site-icon bg-purple">酷</div>
+                <div class="site-name">站酷网</div>
+            </a>
+            <a href="https://www.58pic.com" class="site-card" target="_blank">
+                <div class="site-icon bg-blue">千</div>
+                <div class="site-name">千图网</div>
+            </a>
+            <a href="https://www.likefont.com/" class="site-card" target="_blank">
+                <div class="site-icon bg-orange">识</div>
+                <div class="site-name">识字网</div>
+            </a>
+                </div>
+            </section>
+            
+            <!-- AI设计分类 -->
+            <section class="category" id="ai-design">
+                <h2 class="category-title">AI设计</h2>
+                <div class="site-list">
+                    <a href="https://www.doubao.com" class="site-card" target="_blank">
+                        <div class="site-icon bg-green">豆</div>
+                        <div class="site-name">豆包</div>
+                    </a>
+                    <a href="https://jimeng.jianying.com/" class="site-card" target="_blank">
+                        <div class="site-icon bg-blue">即</div>
+                        <div class="site-name">即梦AI</div>
+                    </a>
+                    <a href="https://www.deepseek.com" class="site-card" target="_blank">
+                        <div class="site-icon bg-emerald">深</div>
+                        <div class="site-name">DeepSeek</div>
+                    </a>
+                    <a href="https://chat.openai.com" class="site-card" target="_blank">
+                        <div class="site-icon bg-indigo">智</div>
+                        <div class="site-name">ChatGPT</div>
+                    </a>
+                </div>
+            </section>
+            
+            <!-- 电商网站分类 -->
+            <section class="category" id="e-commerce">
+                <h2 class="category-title">电商网站</h2>
+                <div class="site-list">
+                    <a href="https://www.taobao.com" class="site-card" target="_blank">
+                <div class="site-icon bg-orange">淘</div>
+                <div class="site-name">淘宝</div>
+            </a>
+            <a href="https://www.tmall.com" class="site-card" target="_blank">
+                <div class="site-icon bg-red">天</div>
+                <div class="site-name">天猫</div>
+            </a>
+            <a href="https://www.jd.com" class="site-card" target="_blank">
+                <div class="site-icon bg-blue">京</div>
+                <div class="site-name">京东</div>
+            </a>
+            <a href="https://pinduoduo.com" class="site-card" target="_blank">
+                <div class="site-icon bg-yellow">拼</div>
+                <div class="site-name">拼多多</div>
+            </a>
+                </div>
+            </section>
+            
+            <!-- 常用网站分类 -->
+            <section class="category" id="common-sites">
+                <h2 class="category-title">常用网站</h2>
+                <div class="site-list">
+                    <a href="https://www.baidu.com" class="site-card" target="_blank">
+                <div class="site-icon bg-blue">百</div>
+                <div class="site-name">百度</div>
+            </a>
+            <a href="https://hao.360.cn" class="site-card" target="_blank">
+                <div class="site-icon bg-red">36</div>
+                <div class="site-name">360导航</div>
+            </a>
+            <a href="https://www.douyin.com/" class="site-card" target="_blank">
+                <div class="site-icon bg-red">抖</div>
+                <div class="site-name">抖音</div>
+            </a>
+            <a href="https://www.gds.org.cn/" class="site-card" target="_blank">
+                <div class="site-icon bg-green">条</div>
+                <div class="site-name">商品条形码</div>
+            </a>
+          
+                </div>
+            </section>
+            
+        </main>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
