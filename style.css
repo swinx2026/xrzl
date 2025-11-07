@@ -26,6 +26,9 @@ body {
     object-fit: cover;
     z-index: -1;
     filter: brightness(1); /* 略微降低亮度以确保内容可读性 */
+    background-image: url('pic/bg.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 /* 备用背景样式 */
