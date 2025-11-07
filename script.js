@@ -66,10 +66,10 @@ function initPage() {
         
         // 定义各分类对应的更多网站链接
         const categoryLinks = {
-            'design-materials': 'https://www.baidu.com/s?wd=设计素材网站集合',
-            'ai-design': 'https://www.baidu.com/s?wd=AI设计工具合集',
-            'e-commerce': 'https://www.baidu.com/s?wd=电商网站大全',
-            'common-sites': 'https://www.baidu.com/s?wd=常用网站推荐'
+            'design-materials': 'https://hao.sj33.cn/',
+            'ai-design': 'https://www.aihub.wang/',
+            'e-commerce': 'https://hao.uisdc.com/shop/',
+            'common-sites': 'https://nav.cocotoolset.cn/'
         };
         
         categoryTitles.forEach(title => {
