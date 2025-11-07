@@ -25,7 +25,7 @@ body {
     height: 100%;
     object-fit: cover;
     z-index: -1;
-    filter: brightness(0.7); /* 略微降低亮度以确保内容可读性 */
+    filter: brightness(1); /* 略微降低亮度以确保内容可读性 */
 }
 
 /* 备用背景样式 */
